@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>About Us </h1>
+  <p>EKON is a whole slide imaging (WSI) device designed for study of pathological specimens. supported with Z-stacking and AI assisted focusing it also offers Telepathology services.</p>
+ 
+</div>
+<h2>EKON whole slide imaging provides a novel technology where glass slides are scanned and produces a single digital image. The images are saved in DICOM format along with Patient data. There have been significant advances in whole slide scanning, the hardware and software that have been synchronized for better performance of whole slide scanning. The whole slide images can be viewed in a DICOM viewer, with provisions to annotate, measure and draw polygons. Whole slide imaging has become a reliable diagnosing device to pathologists and scientists for clinical, educational & research purposes.
+
+  Compared to conventional microscopes, EKON’s whole slide imaging solution improvises the quality, speed, efficiency and workflow of microscopy. EKON assists the Pathologists to have better experience of viewing slide images, processing them and helps in diagnosis and reporting of whole slide images.</h2>
+
+  <br>
+  <br>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="data:image/jpeg;base64,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" alt="Jane" style="width:50%">
+      <div class="container">
+        <h2>Mohana krishanan</h2>
+        <p class="title">CEO & Founder</p>
+        <p>margytech@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team2.jpg" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>Lakshmi</h2>
+        <p class="title">Art Director</p>
+        
+        <p>margytech@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+ 
+       
+        <p><a href="/pic"><button class="button">Contact us</button></p></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
